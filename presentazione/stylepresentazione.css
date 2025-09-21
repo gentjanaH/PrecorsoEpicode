@@ -25,8 +25,15 @@ p {
     font-family: "Domine", serif;
 }
 
-img {
-    width: 100%;
+#img {
+    display: flex;
+    object-fit: cover;
+    width: 160px;
+    height: 180px;
+    float: right;
+
+    margin-top: 0;
+    margin-right: 0;
 }
 
 h1,h2,h3 {
